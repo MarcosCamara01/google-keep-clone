@@ -1,7 +1,7 @@
 # 🛠 Installation & Set Up
 ## Start server
 
-Install dependecies
+Install dependencies
 ```bash
 npm install
 ```
