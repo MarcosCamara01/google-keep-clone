@@ -14,7 +14,7 @@ npm start
 yarn start
 ```
 
-## Start server
+## Start client
 Install dependecies
 ```bash
 npm install
