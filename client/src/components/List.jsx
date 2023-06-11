@@ -23,7 +23,7 @@ export const List = ({ articulos, setArticulos }) => {
     const cardList = articulos.map((card, index) => (
         <div className="card" key={index} onClick={() => handleCardClick(index)}>
             <div className='edit-icon'>
-                <img src={edit} alt="" />
+                <img src={edit} alt="edit" />
             </div>
             <h3>{card.titulo}</h3>
             <p>{card.contenido}</p>
@@ -68,7 +68,7 @@ export const List = ({ articulos, setArticulos }) => {
                                 setIsClicked(false);
                             }}
                         >
-                            <img src={trash} alt="" />
+                            <img src={trash} alt="delete" />
                         </button>
                     </div>
                 </div>
